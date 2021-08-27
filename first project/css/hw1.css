@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    min-width: 100vh;
+}
+
+nav a {
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+    background: none;
+    color: #000;
+    width: 15%;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav a:hover,
+nav a:active {
+    background: #fff;
+    color: rgb(2, 60, 250);
+}
+
+header h1 {
+    text-align: center;
+    color: #fff !important;
+    font-size: 2em;
+}
+
+aside {
+    display: inline-block;
+    width: 20%;
+    background: #fad457;
+}
+
+section {
+    display: inline-block;
+    width: 80%;
+    float: right;
+    font-size: 1.5em;
+    font-weight: 200;
+}
+
+img {
+    width: 90%;
+    height: auto;
+    display: block;
+    padding: 10px;
+}
+
+header {
+    background: #aaa url(" http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg") no-repeat;
+    background-size: cover;
+    height: 20%;
+}
+
+.active {
+    background: #fff;
+    color: rgb(2, 60, 250);
+}
+
+h1,
+h2 {
+    color: #986468;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    font-weight: 400;
+    line-height: normal;
+    width: 90%;
+    margin: auto;
+}
+
+table tr {
+    opacity: 0.8;
+    text-align: center;
+}
+
+table tr:hover {
+    opacity: 1;
+}
+
+table tr td:first-child {
+    text-align: left !important;
+}
+
+table tr td {
+    padding: 2px;
+    border-radius: 2px;
+    background-color: rgb(18, 236, 145);
+    color: #666;
+}
+
+table tr th {
+    background: linear-gradient(rgb(202, 223, 164), rgb(90, 202, 105), rgb(4, 253, 4));
+    border: #000 solid 1px;
+    border-bottom: solid 2px;
+    border-radius: 5px 5px 0 0;
+    color: #fff;
+    text-shadow: #fff 2px;
+}
