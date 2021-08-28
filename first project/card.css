@@ -3,7 +3,7 @@ main {
     justify-content: center;
     align-items: center;
 }
-
+nav {display: none;}
 .card {
     max-width: 600px;
     /*min-width: 240px;*/
