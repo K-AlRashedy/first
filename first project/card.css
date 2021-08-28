@@ -5,7 +5,10 @@ main {
     align-items: center;
     align-content: center;
 }
-
+body {
+min-height: 100vh;
+    height: auto;
+}
 .card {
     max-width: 600px;
     /*min-width: 240px;*/
