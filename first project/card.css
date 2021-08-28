@@ -8,6 +8,7 @@ main {
 body {
 min-height: 100vh;
     height: auto;
+    overflow: scroll;
 }
 .card {
     max-width: 600px;
